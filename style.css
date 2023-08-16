@@ -344,7 +344,7 @@ body {
     position: absolute; 
     top: 49px;
     left: 0;
-    background: url('images/backdrop.jpg');
+    background: url('backdrop.jpg');
     background-size: cover;
     width: 100%; 
     
