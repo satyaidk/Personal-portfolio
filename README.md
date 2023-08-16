@@ -14,6 +14,12 @@ carefully crafted using the triad of HTML, CSS, and JavaScript.
 
 **Steps I'm used:**
 
+     -> Introduction.
+     -> skills & Tools.
+     -> Projects.
+     -> About Me.
+     -> contact.
+     -> Social Links.
 
 **A Reflection of Commitment:**
 
