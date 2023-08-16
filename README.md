@@ -7,8 +7,9 @@ my digital journey. This repository stands as a testament to the creation of my 
 carefully crafted using the triad of HTML, CSS, and JavaScript.
 
 **Tech Stacks I'm used:** 
-    - HTML => Hyper Text Markup Language.
-    - CSS  => Cascading Style Sheet.
+
+    - HTML Hyper Text Markup Language.
+    - CSS  Cascading Style Sheet.
     - Javascript.
 
 **A Reflection of Commitment:**
