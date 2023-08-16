@@ -12,6 +12,9 @@ carefully crafted using the triad of HTML, CSS, and JavaScript.
     - CSS  Cascading Style Sheet.
     - Javascript.
 
+**Steps I'm used:**
+
+
 **A Reflection of Commitment:**
 
 Creating a personal portfolio involves a commitment to precision and detail. This repository embodies my dedication to honing my skills and presenting them in an elegant, user-friendly package. Every aspect, from the responsiveness to the user experience, reflects my dedication to the craft.
