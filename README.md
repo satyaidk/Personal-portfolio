@@ -6,7 +6,10 @@ Step into a realm where code converges with creativity, and web technologies ble
 my digital journey. This repository stands as a testament to the creation of my personal portfolio website, 
 carefully crafted using the triad of HTML, CSS, and JavaScript.
 
-**Tech Stacks I'm used:**
+**Tech Stacks I'm used:** 
+    - HTML => Hyper Text Markup Language.
+    - CSS  => Cascading Style Sheet.
+    - Javascript.
 
 **A Reflection of Commitment:**
 
