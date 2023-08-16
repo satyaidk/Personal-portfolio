@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Bungee+Spice&family=Calligraffitti&family=Charm&family=Ewert&family=Nabla&family=Ranga&family=Roboto+Mono&family=Staatliches&display=swap');
+
+/*
+font-family: 'Bungee Shade', cursive;
+font-family: 'Bungee Spice', cursive;
+font-family: 'Calligraffitti', cursive;
+font-family: 'Charm', cursive;
+font-family: 'Ewert', cursive;
+font-family: 'Nabla', cursive;
+font-family: 'Ranga', cursive;
+font-family: 'Roboto Mono', monospace;
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-family: 'Bungee Spice', cursive;
+  }
+  
+  .menu-toggle {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .menu-toggle span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: transform 0.3s;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    margin: 0 15px;
+    
+  }
+  
+  .nav-list a {
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-list a:hover {
+    color: #e50914;
+  }
+
+  
+
+  .profile-image {
+    border-radius: 50%;
+    display: block;
+    max-height:250px;
+    max-width: 250px;
+    margin: 0 auto 1em;
+    margin-top: 275px;
+    width: 100%;
+    opacity: 0.85;
+  }
+
+  #gradient-satya {
+    background: linear-gradient(to right,
+    #dd03ff 40%,
+    #0044ff 50%,
+    #00fbf7 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .satya {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+
+  #introduction {
+    text-align: start;
+    margin-left: 25px;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.25em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+
+  .front-end {
+    background: -webkit-linear-gradient(35deg, rgb(191, 0, 255), rgb(3, 226, 255) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+  }
+  
+  .introduction {
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Roboto Mono', monospace;
+    padding: 1.7em;
+    text-align: start;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+
+  .resume {
+    color: #fff;
+    margin: -5px 150px 15px 180px;
+    padding: 8px 22px;
+    border-radius: 6px;
+    border-color: #7d2ae8;
+    background: #7d2ae8;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  button:active {
+    transform: scale(0.98);
+  }
+
+  h1.never {
+    font-size: 1.5em;
+    > span {
+      position: relative;
+      display: inline-block;
+      color: #fe0000;
+      height: 1.25em;
+      vertical-align: bottom;
+      overflow: hidden;
+    >  span {
+        display: block;
+        padding: 5px;
+        animation: animatewords 5s infinite ease;
+      }
+    }
+  }
+  .never {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    padding: auto;
+  }
+
+  .skills a {
+    justify-content: center;
+    display: inline-block;
+    margin: 10px 25px 10px 30px;
+  }
+
+  #skills-tools {
+    text-align: start;
+    font-size: 1.25em;
+    margin-left: 25px;
+    font-family:'Staatliches', cursive;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+  
+#projects {
+  text-align: start;
+  font-size: 1.25em;
+  margin-left: 12px;
+  font-family: 'Staatliches', cursive;
+  margin-top: 15px;
+  margin-bottom: 1em;
+} 
+
+#about-me {
+  text-align: start;
+  font-size: 1.25em;
+  margin-left: 25px;
+  font-family: 'Staatliches', cursive;
+  margin-top: 10px;
+  margin-bottom: 0.5em;
+}
+
+.about-me {
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Roboto Mono', monospace;
+  padding: 1.7em;
+  text-align: start;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+  .row {
+    margin: -20px 0;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row .col {
+    padding: 0 20px;
+    float: left;
+    box-sizing: border-box;
+  }
+  .row .col.x-50 {
+    width: 50%;
+  }
+  .row .col.x-100 {
+    width: 100%;
+  }
+  
+  .content-wrapper {
+    min-height: 100%;
+    position: relative;
+  }
+  
+  .contact .title {
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 36px;
+    line-height: 48px;
+    padding-bottom: 48px;
+    background: linear-gradient(45deg, rgb(255, 0, 170) 50%, rgb(195, 0, 255) 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .contact-form .form-field {
+    position: relative;
+    margin: 32px 0;
+  }
+  .contact-form .input-text {
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #000;
+    font-family: Lusitana, serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+  }
+  .contact-form .input-text:focus {
+    outline: none;
+  }
+  .contact-form .input-text:focus + .label, .contact-form .input-text.not-empty + .label {
+    transform: translateY(-24px);
+  }
+  .contact-form .label {
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-family: Lusitana, serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #00ddff;
+    cursor: text;
+    transition: transform 0.2s ease-in-out;
+  }
+  .contact-form .submit-btn {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 186px;
+    padding: 8px 16px;
+    border: 3px solid rgb(153, 255, 0);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .submit-btn:hover {
+    background-color: red;
+    border: 3px solid blue;
+    color: #000;
+  }
+
+  
+  
+  .note {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-family: Lusitana, serif;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .note .link {
+    color: #525151;
+    text-decoration: none;
+  }
+  .note .link:hover {
+    text-decoration: underline;
+  }
+  
+  .social a {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 15px 25px 10px 35px;
+    padding: 10px;
+  }
+  #social-links {
+    text-align: center;
+    font-size: 1.25em;
+    margin-left: 25px;
+    font-family: 'Staatliches', cursive;
+    margin-top: 10px;
+    margin-bottom: 0.5em;
+  }
+  
+
+  /* Media Query for Small Screens */
+@media screen and (max-width: 768px) {
+  .menu-toggle {
+    display: block; /* Show the menu toggle button */
+  }
+
+  .nav-list {
+    display: none; 
+    flex-direction: column; 
+    position: absolute; 
+    top: 49px;
+    left: 0;
+    background: url('images/backdrop.jpg');
+    background-size: cover;
+    width: 100%; 
+    
+  }
+
+  .nav-list.active {
+    display: flex; 
+    
+  }
+
+  .nav-list li {
+    margin: 10px; 
+    margin-left: -50px;
+    text-align: center; 
+  }
+  .nav-list a{
+    font-family: 'Bungee Spice', cursive;
+  }
+}
+  
+@keyframes animatewords {
+  0% {
+    transform: translateY(0%);
+  }
+  25% {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(-200%);
+  }
+  75% {
+    transform: translateY(-300%);
+  }
+  100% {
+    transform: translateY(-400%);
+  }
+}
