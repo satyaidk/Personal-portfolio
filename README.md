@@ -4,7 +4,7 @@
 
 Step into a realm where code converges with creativity, and `Web Technologies` blend seamlessly to narrate 
 my Digital journey. This Repository stands as a testament to the creation of my `Personal portfolio` website, 
-carefully crafted using the triad of `HTML`, `CSS`, and JavaScript.
+carefully crafted using the triad of `HTML`, `CSS`, and `JavaScript`.
 
 <h1>Tech Stacks I'm used:</h1> 
 
