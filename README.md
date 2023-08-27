@@ -22,6 +22,7 @@ carefully crafted using the triad of `HTML`, `CSS`, and `JavaScript`.
      -> Social Links.
 
 **Click The Link:** https://satyaidk.github.io/Personal-portfolio/
+**click The Link:
 
 
 **A Reflection of Commitment:**
