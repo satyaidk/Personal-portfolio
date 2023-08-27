@@ -21,7 +21,7 @@ carefully crafted using the triad of `HTML`, `CSS`, and `JavaScript`.
      -> contact.
      -> Social Links.
 
-**Click The Link:** https://satyaidk.github.io/
+**Click The Link:** https://satyaidk.github.i
 **click The Link:** https://www.satyaidk.live
 
 
