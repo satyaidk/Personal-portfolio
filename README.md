@@ -22,7 +22,7 @@ carefully crafted using the triad of `HTML`, `CSS`, and `JavaScript`.
      -> Social Links.
 
  
-**click The Link:** https://www.satyaidk.live
+**Click The Link:** https://www.satyaidk.live
 
 
 **A Reflection of Commitment:**
