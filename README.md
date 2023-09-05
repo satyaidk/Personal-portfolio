@@ -12,7 +12,7 @@ carefully crafted using the triad of `HTML`, `CSS`, and `JavaScript`.
     - CSS  Cascading Style Sheet.
     - Javascript.
 
-**Steps I'm used:**
+**Steps I'm used:-**
 
      -> Introduction.
      -> skills & Tools.
